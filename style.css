@@ -33,7 +33,7 @@ header{
 
 .main-menu ul li{
     list-style-type: none;
-    display: inline-block;
+    display: inline;
     float: left;
     padding-left: 25px;
     padding-right: 25px;
@@ -285,4 +285,78 @@ input[type="submit"]{
 #cliffs header{
     background: no-repeat lightgrey url(images/forest_cliff.jpeg);
     background-size: 1500px;
+}
+/*
+#westnorth img{
+    float: left;
+    width: 50%;
+    width: 450px;
+    height: auto;
+    padding: 20px;
+}
+
+#westnorth .cliffsimg{
+    display: inline;
+}
+
+#westnorth{
+    margin-left: 100px;
+}
+
+
+#eastsouth img{
+    float: left;
+    width: 50%;
+    width: 450px;
+    height: auto;
+    padding: 20px;
+}
+
+#eastsouth .cliffsimg{
+    display: inline;
+}
+
+#eastsouth{
+    margin-left: 100px;
+}
+
+section{
+    clear: both;
+}
+
+#cliff{
+    margin-bottom: 600px;
+}
+*/
+
+
+.container {
+    text-align: center;
+    color: white;
+    float: left;
+    width: 45%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+
+.cliff {
+    position:top;
+    top: 0px;
+    left: 0px;
+    background-color:#852b1b;
+    width:100%;
+    height:30px;
+    padding-top: 10px;
+  }
+
+section{
+    clear: both;
+}
+
+.container:nth-child(4){
+    padding-bottom: 150px;
+}
+
+#box{
+    margin:50px 200px;
 }
